@@ -1,0 +1,6 @@
+00:12:01 DEBUG [thread-1] "This is a string"
+00:12:01 INFO  [thread-1] 'This is a string'
+00:12:01 WARN  [thread-1] This is a date: 2018-01-01
+00:12:01 ERROR [thread-1] This is a log message.
+
+Feb 15 15:53:24: Some log message.
