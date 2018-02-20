@@ -17,10 +17,23 @@ messages.
 
 ## Installation
 
- * Copy (or symlink) [log.vim](syntax/log.vim) to `~/.vim/syntax/log.vim`.
- * Add the following line to your `~/.vimrc` (or use ftdetect):
+You can install this syntax file manually or with
+[Pathogen](https://github.com/tpope/vim-pathogen).
 
-   ```
-   autocmd BufNewFile,BufReadPost *.log :set filetype=log
-   ```
+### Manual Installation
+
+ 1. Copy (or symlink) [syntax/log.vim](syntax/log.vim) to `~/.vim/syntax/log.vim`.
+ 2. Copy (or symlink) [ftdetect/log.vim](ftdetect/log.vim) to
+    `~/.vim/ftdetect/log.vim`. **OR** add the following line to your `~/.vimrc`:
+
+    ```
+    autocmd BufNewFile,BufReadPost *.log :set filetype=log
+    ```
+
+### Pathogen Installation
+
+```
+$ cd ~/.vim/bundle
+$ git clone https://github.com/mkasberg/vim-log-syntax.git
+```
 
